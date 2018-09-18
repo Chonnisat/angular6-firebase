@@ -1,5 +1,6 @@
-"# angular6-firebase" 
+# angular6-firebase
 
+```
 npm install ngx-bootstrap --save
 
 
