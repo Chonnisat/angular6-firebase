@@ -9,7 +9,7 @@ npm install ngx-bootstrap --save
 ```
 
 ```
-fileChangeEvent(fileInput) {
+  fileChangeEvent(fileInput) {
     this.fileUpload = <Array<File>> fileInput.target.files;
     this.projImage = this.fileUpload[0].name;
   }
@@ -29,5 +29,5 @@ fileChangeEvent(fileInput) {
       );
     }
   }
-  
+
 ```
